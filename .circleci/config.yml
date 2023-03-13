@@ -35,7 +35,7 @@ jobs:
     - save_cache:
         key: dependency-cache-{{ checksum "package-lock.json" }}
         paths:
-          -./node_modules
+          - ./node_modules
   deploy:
     docker:
      - image: circleci/node:10.16.3
