@@ -3,10 +3,10 @@ sudo apt update && sudo apt install nodejs npm
 # Install pm2 which is a production process manager for Node.js with a built-in load balancer.
 sudo npm install -g pm2
 # Stop any instances of out application running currently
-pm2 stop simpleapplication
+pm2 stop simpleapplicaiton
 # Change directory iunto folder where application is downlaoded
-cd simpleapplication/
+cd simpleapplicaiton/
 # Install application dependecies
 npm install
-# start the application with the process name simpleapplication using pm2
-pm2 start ./bin/www -- name simpleapplication
+# start the application with the process name simpleapplicaiton using pm2
+pm2 start ./bin/www -- name simpleapplicaiton
